@@ -63,9 +63,11 @@ const handlePizzaSubmit = event => {
     .then(postResponse => {
       alert('Pizza created successfully!');
       console.log(postResponse);
+      // location.reload();
     })
     .catch(err => {
       console.log(err);
+      saveRecord(formData);
     });
 };
 
