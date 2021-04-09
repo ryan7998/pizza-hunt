@@ -25,3 +25,6 @@ Add Data Validation
 
 ## TECHNICAL DESCRIPTION: 
 - mongoDB (mongoose), indexedDB and Sequelize is used.
+
+## APPLICATION LINK:
+https://pizza-hunt-ryan.herokuapp.com
